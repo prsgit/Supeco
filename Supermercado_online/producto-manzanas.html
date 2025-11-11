@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supermercado Online — Manzanas Fuji</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html" style="text-decoration:none; color:inherit;">Sup€co</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html#frutas">Frutas</a></li>
+        <li><a href="index.html#bebidas">Bebidas</a></li>
+        <li><a href="index.html#limpieza">Limpieza</a></li>
+        <li><a href="index.html#ofertas">Ofertas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <nav class="breadcrumbs" aria-label="migas de pan">
+      <a href="index.html">Inicio</a> › <a href="index.html#frutas">Frutas</a> › <strong>Manzanas Fuji</strong>
+    </nav>
+
+    <article class="product-detail" itemscope itemtype="https://schema.org/Product">
+      <div class="pd-media">
+        <img src="assets/img/productos/manzana_fuji.jpg" alt="Bandeja de Manzanas Fuji rojas" itemprop="image">
+      </div>
+
+      <div class="pd-info">
+        <h1 class="pd-title" itemprop="name">Manzanas Fuji</h1>
+
+        <p class="pd-unit">Bandeja 600g aprox. · <span>4,15 € / Kg</span></p>
+
+        <div class="pd-price-wrap" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+          <span id="pd-price" class="pd-price" itemprop="price" content="2.49" data-price="2.49">2,49€</span>
+          <span class="pd-price-old" aria-label="precio anterior">2,99€</span>
+          <link itemprop="priceCurrency" content="EUR">
+          <link itemprop="availability" href="https://schema.org/InStock">
+          <span class="pd-stock in-stock">En stock</span>
+
+          <button id="btn-descuento" type="button" class="btn btn-ghost" style="margin-left:.5rem;">
+            Aplicar -10%
+          </button>
+        </div>
+
+        <p class="pd-rating" aria-label="Valoración 4,5 sobre 5" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+          ★★★★☆ <span>(4,5)</span>
+          <meta itemprop="ratingValue" content="4.5">
+          <meta itemprop="reviewCount" content="152">
+        </p>
+
+        <p class="pd-desc" itemprop="description">
+          Manzanas crujientes y dulces, ideales para postres o snacks saludables. Seleccionadas de productores locales.
+        </p>
+
+        <div class="pd-cta">
+          <a id="btn-carrito" class="btn btn-primary" type="button">Añadir al carrito</a>
+          <a class="btn btn-ghost" href="index.html">Volver</a>
+        </div>
+        <div id="alerta-carrito" class="alerta" hidden >Producto añadido al carrito</div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Supermercado Online — Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

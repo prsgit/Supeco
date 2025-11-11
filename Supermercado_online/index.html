@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermercado Online</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sup€co</h1>
+    <nav>
+      <ul>
+        <li><a href="#frutas">Frutas</a></li>
+        <li><a href="#bebidas">Bebidas</a></li>
+        <li><a href="#limpieza">Limpieza</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Tu supermercado rápido , fácil y económico</h2>
+        <p>Compra productos frescos, bebidas y artículos de limpieza sin moverte de casa.</p>
+        <a href="#ofertas" class="btn">Ver ofertas</a>
+      </div>
+    </section>
+
+    <section id="ofertas">
+      <h2>Productos destacados</h2>
+
+      <div class="cards">
+        <!-- Card 1 -->
+        <article class="card">
+          <a class="card-link" href="producto-manzanas.html" aria-label="Ver detalle Manzanas Fuji">
+            <img class="card-img" src="assets/img/productos/manzana_fuji.jpg" alt="Manzanas Fuji rojas" />
+            <div class="card-body">
+              <h3 class="card-title">Manzanas Fuji</h3>
+              <p class="price">
+                <span class="price-current">2,49 €</span>
+                <span class="price-old" aria-label="precio anterior">2,99 €</span>
+              </p>
+              <p class="rating" aria-label="Valoración 4,5 sobre 5">★★★★☆ (4,5)</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <a class="card-link" href="producto-detergente.html" aria-label="Ver detalle Detergente Eco">
+            <img class="card-img" src="assets/img/productos/detergente_eco.jpg" alt="Botella de detergente ecológico" />
+            <div class="card-body">
+              <h3 class="card-title">Detergente Eco</h3>
+              <p class="price">
+                <span class="price-current">5,95 €</span>
+                <span class="price-old" aria-label="precio anterior">7,20 €</span>
+              </p>
+              <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="card-link" href="producto-alhambra.html" aria-label="Ver detalle Cerveza Alhambra">
+            <img class="card-img" src="assets/img/productos/alhambra.jpg" alt="Cerveza Alhambra" />
+            <div class="card-body">
+              <h3 class="card-title">Cerveza Alhambra pack de 6 botellas</h3>
+              <p class="price">
+                <span class="price-current">6,99 €</span>
+                <span class="price-old" aria-label="precio anterior">7,99 €</span>
+              </p>
+              <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="frutas">
+      <h2>Frutas</h2>
+      <div class="mini-grid">
+        <article class="mini-card">
+          <img src="assets/img/productos/uva.jpg" alt="uvas" class="mini-img">
+          <h3 class="mini-title">Uvas</h3>
+          <p class="mini-price">3,00 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/mango.jpg" alt="Mango" class="mini-img">
+          <h3 class="mini-title">Mango</h3>
+          <p class="mini-price">2,50 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/banana.jpg" alt="Banana" class="mini-img">
+          <h3 class="mini-title">Banana</h3>
+          <p class="mini-price">1.25 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/naranja.jpg" alt="Naranja" class="mini-img">
+          <h3 class="mini-title">Naranjas</h3>
+          <p class="mini-price">3,29 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="bebidas">
+      <h2>Bebidas</h2>
+      <div class="mini-grid">
+        <article class="mini-card">
+          <img src="assets/img/productos/red_bull.jpg" alt="redbull" class="mini-img">
+          <h3 class="mini-title">Red Bull</h3>
+          <p class="mini-price">2,00 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/fanta.jpg" alt="Fanta" class="mini-img">
+          <h3 class="mini-title">Fanta Naranja</h3>
+          <p class="mini-price">0.30 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/cola.jpg" alt="Coca-Cola" class="mini-img">
+          <h3 class="mini-title">Coca-Cola</h3>
+          <p class="mini-price">0.45 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/clipper.jpg" alt="Clipper" class="mini-img">
+          <h3 class="mini-title">Clipper Fresa</h3>
+          <p class="mini-price">1,05 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="limpieza">
+      <h2>Limpieza</h2>
+      <div class="mini-grid">
+        <article class="mini-card">
+          <img src="assets/img/productos/asevi.jpg" alt="asevi" class="mini-img">
+          <h3 class="mini-title">Fregasuelos Asevi</h3>
+          <p class="mini-price">2,50 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/cristasol.jpg" alt="Cristasol" class="mini-img">
+          <h3 class="mini-title">Cristasol</h3>
+          <p class="mini-price">1,50 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/bayeta.jpg" alt="Bayeta" class="mini-img">
+          <h3 class="mini-title">Bayeta Multiusos</h3>
+          <p class="mini-price">0.30 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+
+        <article class="mini-card">
+          <img src="assets/img/productos/agerul.jpg" alt="QuitaGrasas" class="mini-img">
+          <h3 class="mini-title">QuitaGrasas</h3>
+          <p class="mini-price">3,29 €</p>
+          <p class="rating" aria-label="Valoración 4,2 sobre 5">★★★★☆ (4,2)</p>
+          <button class="mini-btn" type="button">Ver</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Supermercados Sup€co — Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>
