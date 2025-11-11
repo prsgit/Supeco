@@ -1,6 +1,6 @@
 // DESCUENTO DEL 10% EN PRODUCTO DESTACADOS
 document.addEventListener("DOMContentLoaded", () => {
-  // 1️⃣ Buscamos el botón y el precio
+  //  Buscamos el botón y el precio
   const btnDescuento = document.getElementById("btn-descuento");
   const precioEl = document.getElementById("pd-price");
 
